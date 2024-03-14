@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "messageId": "059f36b4-87a3-44ab-83d2-661975830a7d",
+      "receiptHandle": "AQEBwJnKyrHigUMZj6rYigCgxlaS3SLy0a...",
+      "body": "{\"station_id\":\"110\",\"vendor_id\":\"chargemod\",\"name\":\"BB Test\",\"address_line\":\"chargemod\",\"town\":\"Pune\",\"state\":\"Maharashtra\",\"postal_code\":\"411014\",\"latitude\":8.561339,\"longitude\":76.911983,\"country\":\"India\",\"qr_code\":\"CM-S00110-NIBFC96LOS\",\"total_connectors_available\":1,\"station_status\":\"healthy\",\"station_time\":{\"start_time\":\"12:00 AM\",\"end_time\":\"11:59 PM\"},\"distance_unit\":null,\"is_ocpp\":false,\"total_charger_data\":[{\"charger_point_id\":1,\"charger_point_type\":\"AC\",\"power_capacity\":\"240VAC, 15A\",\"charger_point_status\":\"AVAILABLE\",\"connectors\":[{\"connector_point_id\":1,\"relay_number\":1,\"status\":\"AVAILABLE\",\"tariff\":125}]},{\"charger_point_id\":2,\"charger_point_type\":\"AC\",\"power_capacity\":\"240VAC, 15A\",\"charger_point_status\":\"BUSY\",\"connectors\":[{\"connector_point_id\":1,\"relay_number\":1,\"status\":\"BUSY\",\"tariff\":125}]}],\"geo_address\":[8.561339,76.911983],\"uid\":\"059f36b4-87a3-44ab-83d2-661975830a7d\",\"rating\":{\"avg_rating\":0,\"5\":0,\"4\":0,\"3\":0,\"2\":0,\"1\":0}}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1545082649183",
+        "SenderId": "AIDAIENQZJOLO23YVJ4VO",
+        "ApproximateFirstReceiveTimestamp": "1545082649185"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "098f6bcd4621d373cade4e832627b4f6",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-2:123456789012:my-queue",
+      "awsRegion": "us-east-2"
+    }
+  ]
+}

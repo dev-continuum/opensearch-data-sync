@@ -1,0 +1,20 @@
+{
+  "Records": [
+    {
+      "messageId": "059f36b4-87a3-44ab-83d2-661975830a7d",
+      "receiptHandle": "AQEBwJnKyrHigUMZj6rYigCgxlaS3SLy0a...",
+      "body": "{\"_id\":\"68f1ec0f-1a8d-4bfa-aaa6-8b1e5392c236\",\"station_id\":\"14\",\"vendor_id\":\"avolchargeid\",\"address_line\":\"Bangalore, Varthur Rd Vill Sidapur\",\"available_chargers\":[{\"charger_point_type\":\"DC\",\"connectors\":[{\"connector_point_id\":1,\"relay_number\":111,\"status\":1,\"tariff\":125}],\"id\":1,\"power_capacity\":\"240VAC, 15A\"}],\"country\":\"india\",\"distance_unit\":null,\"is_ocpp\":false,\"geo_address\":[12.942873468781595,77.72697865942747],\"name\":\"AVOL Fuel Station (Bharat Petroleum)\",\"postal_code\":\"560087\",\"qr_code\":\"CM-S00115-4RXJJRGTXU\",\"rating\":{\"1\":0,\"2\":0,\"3\":0,\"4\":0,\"5\":0,\"avg_rating\":0},\"state\":\"Karnataka\",\"station_status\":\"not_connected\",\"station_time\":{\"end_time\":\"11:59 PM\",\"start_time\":\"12:00 AM\"},\"total_connectors_available\":0,\"town\":\"Bangalore\"}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1545082649183",
+        "SenderId": "AIDAIENQZJOLO23YVJ4VO",
+        "ApproximateFirstReceiveTimestamp": "1545082649185"
+      },
+      "messageAttributes": {},
+      "md5OfBody": "098f6bcd4621d373cade4e832627b4f6",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-2:123456789012:my-queue",
+      "awsRegion": "us-east-2"
+    }
+  ]
+}
